@@ -1,4 +1,4 @@
-const main = () => {
+(() => {
   //algorithm
   const bubbleSort = ({
     arr,
@@ -32,7 +32,5 @@ const main = () => {
   //operation
   console.log('Default Array Bubble Sort:', arr);
   bubbleSort({ arr, numberElementSort: n });
-  console.log('Sorted Array Bubble Sort: ', arr);
-};
-
-main();
+  console.log('Sorted Arrays Bubble Sort: ', arr);
+})();
